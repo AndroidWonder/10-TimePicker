@@ -35,6 +35,7 @@ public class  MainActivity extends Activity {
     }
 
     //listener method for button click
+    //get hour and minute, 24 hour format
     public void setTime(View view) {
         int hour = timePicker.getHour();
         int min = timePicker.getMinute();
